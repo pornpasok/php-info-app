@@ -1,3 +1,3 @@
 FROM php:7.2-apache
 COPY src/ /var/www/html/
-EXPOSE 8080/tcp
+EXPOSE 80/tcp
